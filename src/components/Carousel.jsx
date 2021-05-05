@@ -35,18 +35,18 @@ const Carousel = () => {
             infinite
             prevArrow={<PreviousBtn/>}
             nextArrow={<NextBtn/>}
-            customPaging={(i)=>{
-                return (
-                    <div>
-                        {i}
-                    </div>
-                )
-            }}
+            // customPaging={(i)=>{
+            //     return (
+            //         <div>
+            //             {i}
+            //         </div>
+            //     )
+            // }}
             >
                 {
                     datas.map(item=>(
                         <div>
-                        <img src={item} alt="" style={{width: '100%', height: '30vh'}}/>
+                        <img src={item} alt="" style={{width: '100%', height: '35vh'}}/>
                     </div>
                     ))
                 }
