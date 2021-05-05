@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { Data } from "./Data";
 import { useState, useEffect } from "react";
 import Card from "./components/Card";
+import Carousel from "./components/Carousel";
 
 function App() {
   const [category, setCategory] = useState([]);
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Carousel />
       <div className="Products">
         {category.map((item) => (
           <Card
