@@ -61,13 +61,6 @@ const SecondNav = () => {
                                 <li>Window AC</li>
                             </ul>
                             <ul>
-                                <h4>Header Three</h4>
-                                <li>One</li>
-                                <li>Two</li>
-                                <li>Three</li>
-                                <li>FOur</li>
-                            </ul>
-                            <ul>
                                 <h4>Shop By Brand</h4>
                                 <li>LG</li>
                                 <li>Hitachi</li>
@@ -98,7 +91,6 @@ const SecondNav = () => {
                                     <li>Perfumes</li>
                                     <li>Beard Care & Grooming</li>
                                     <li>Shaving & Aftershave</li>
-                                    <li>Sexual Wellness</li>
                                 </ul>
                             </div>
                             <div>
