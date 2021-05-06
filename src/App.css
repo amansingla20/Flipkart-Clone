@@ -13,3 +13,21 @@
 .image {
   object-fit: contain;
 }
+
+.image-after-second-nav {
+  max-width: 100%;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  display: block;
+  color: lightgray;
+  border: 0.5px solid gray;
+  overflow: hidden;
+}
+
+.image-after-second-nav > img {
+  display: block;
+  margin-top: 20px;
+  height: 55px;
+  margin-bottom: 0;
+}
