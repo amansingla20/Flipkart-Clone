@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Card from "./components/Card";
 import Carousel from "./components/Carousel";
 import SecondNav from "./components/SecondNav";
+import MultiItemCarousel from "./components/MultiItemCarousel";
 
 function App() {
   const [category, setCategory] = useState([]);
@@ -32,6 +33,7 @@ function App() {
         />
       </div>
       <Carousel />
+      <MultiItemCarousel />
       <div className="Products">
         {category.map((item) => (
           <Card
